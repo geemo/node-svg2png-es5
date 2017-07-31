@@ -1,10 +1,19 @@
 {
-  "name": "svg2png-es5",
+  "name": "node-svg2png-es5",
   "description": "Converts SVGs to PNGs, using PhantomJS",
   "version": "0.0.1",
-  "author": "geemo <153330685@qq.com>",
+  "author": "geemo",
   "license": "WTFPL",
-  "repository": "geemo/svg2png-es5",
+  "engines": {
+    "node": ">=4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geemo/node-svg2png-es5.git"
+  },
+  "keywords": [
+    "node-svg2png-es5"
+  ],
   "main": "lib/svg2png.js",
   "bin": "bin/svg2png-cli.js",
   "files": [
@@ -33,5 +42,9 @@
     "mkdirp": "^0.5.1",
     "mocha": "^3.2.0",
     "rimraf": "^2.5.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/geemo/node-svg2png-es5/issues"
+  },
+  "homepage": "https://github.com/geemo/node-svg2png-es5#readme"
 }
